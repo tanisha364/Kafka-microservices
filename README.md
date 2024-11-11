@@ -15,7 +15,7 @@ Start kafka server-
 Create new topic-
 			bin\windows\kafka-topics.bat --create --topic user-topic --bootstrap-server localhost:9092
 
-Producer for producing messages-
+Producer for producing messages on a topic-
 			bin\windows\kafka-console-producer.bat --topic use-topic --bootstrap-server localhost:9092
 				
 Consumer for consuming messages-
